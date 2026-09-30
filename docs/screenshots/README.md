@@ -4,6 +4,27 @@ This section provides visual documentation of the Windows Server and Microsoft S
 
 The project covers the configuration of a virtualized Windows Server, network and firewall configuration, SQL Server administration, database security, testing, backup, and recovery.
 
+## Project Context
+
+This project was completed as part of my IT platform development training using a client-based project scenario with **DoubleCheck GmbH** as the defined client.
+
+The scenario is based on **PandaResearch GmbH**, which requires a relational database environment for the **PandemyResearch** application used to analyse COVID-19 and other datasets.
+
+My task was to prepare and configure the database server environment for operational use. This included:
+
+- configuring a virtual machine and Windows Server
+- implementing the network and firewall configuration
+- installing and configuring Microsoft SQL Server
+- creating the PandemyResearch database and physical database schema
+- configuring database users, roles, permissions, and storage
+- performing functional and database integrity tests
+- creating a database backup
+- testing database restore and recovery
+
+The implementation and technical documentation were produced according to the **HERMES project management methodology**, including an integration and installation guide.
+
+The screenshots below document the practical implementation and verification of the environment.
+
 ## Environment Setup
 
 ### Virtual Machine
