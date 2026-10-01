@@ -40,6 +40,8 @@ The project combines server administration, database management, ETL processing,
 
 The first phase covers the initial planning and definition of the database project, including the system context, project boundaries, process design and project milestones.
 
+![System Context](docs/01-planning/screenshots/03-system-context.png)
+
 Documentation: [`docs/01-planning/`](docs/01-planning/)
 
 ### 2. System Implementation
@@ -53,6 +55,8 @@ Documentation: [`docs/02-implementation/`](docs/02-implementation/)
 The third phase covers the operational database workflow and ETL process. Source data is imported into staging tables, validated, transformed and transferred into the target database structure.
 
 The workflow also includes automated execution, scheduled processing, database views, stored procedures, backup, restore and recovery testing.
+
+![ETL Workflow](docs/03-operations-and-data-import/screenshots/04-etl-workflow.png)
 
 Documentation: [`docs/03-operations-and-data-import/`](docs/03-operations-and-data-import/)
 
@@ -69,6 +73,8 @@ The data processing workflow consists of six SQL steps:
 
 The individual SQL scripts are executed sequentially through the `PandemyResearch_ETL.bat` automation script using `sqlcmd`.
 
+![ETL Success](docs/03-operations-and-data-import/screenshots/07-etl-success.png)
+
 Detailed scripts and documentation are available in:
 
 - [`SQL scripts`](docs/03-operations-and-data-import/sql/)
@@ -80,7 +86,9 @@ A full database backup and recovery procedure was implemented and tested.
 
 The database backup was restored into a separate recovery-test database. Queries against the restored database were then executed to verify that the recovered data remained accessible and usable.
 
-The corresponding implementation and evidence are documented in the project documentation.
+![Database Restore](docs/03-operations-and-data-import/screenshots/12-database-restore.png)
+
+![Recovery Test](docs/03-operations-and-data-import/screenshots/13-recovery-test.png)
 
 ## Project Structure
 
