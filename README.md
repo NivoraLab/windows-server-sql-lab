@@ -48,6 +48,8 @@ Documentation: [`docs/01-planning/`](docs/01-planning/)
 
 The second phase documents the implementation of the technical environment, including the Windows Server virtual machine, Microsoft SQL Server, database configuration, permissions and the initial backup and recovery setup.
 
+![Database Schema](docs/02-implementation/screenshots/08-database-schema.png)
+
 Documentation: [`docs/02-implementation/`](docs/02-implementation/)
 
 ### 3. Operations & Data Import
@@ -85,6 +87,8 @@ Detailed scripts and documentation are available in:
 A full database backup and recovery procedure was implemented and tested.
 
 The database backup was restored into a separate recovery-test database. Queries against the restored database were then executed to verify that the recovered data remained accessible and usable.
+
+![Database Backup](docs/03-operations-and-data-import/screenshots/11-database-backup.png)
 
 ![Database Restore](docs/03-operations-and-data-import/screenshots/12-database-restore.png)
 
