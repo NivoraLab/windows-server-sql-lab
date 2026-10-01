@@ -84,7 +84,11 @@ The ETL process can be scheduled using Windows Task Scheduler to support recurri
 
 ### Stored Procedure
 
-Database-side processing can also be encapsulated in stored procedures to provide reusable operations within SQL Server.
+### Stored Procedure
+
+A stored procedure was implemented in SQL Server to provide reusable database-side processing for the PandemyResearch data. The procedure was executed successfully and the resulting data was verified.
+
+![Stored procedure](screenshots/09-stored-procedure.png)
 
 ![Stored procedure](screenshots/09-stored-procedure.png)
 
